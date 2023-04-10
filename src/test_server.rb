@@ -28,6 +28,7 @@ class ServerTest < Test::Unit::TestCase
     # read the response message from the server
     response = server.gets
     assert_equal "Hey, A!\n", response
+    puts response
 
     # close the socket connection to the server
     server.close
@@ -49,6 +50,7 @@ class ServerTest < Test::Unit::TestCase
     expected = "" "HTTP/1.1 200\r\n\r\nHey, 42!\n" ""
 
     assert_equal expected, response
+    puts response
 
     server.close
   end
