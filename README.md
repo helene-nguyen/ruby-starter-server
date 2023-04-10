@@ -20,11 +20,7 @@ Hope it can help :)
 - [Folder structure](#folder-structure)
 - [Requirements](#requirements)
 - [Makefile usage](#makefile-usage)
-- [Project : Object Oriented Programming](#project)
-- [Some tips](#tips)
-
-- Useful resources :
-
+- [Project : Build a server](#project)
 - [Sources](#sources)
 
 ## Tools and versions
